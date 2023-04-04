@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Notes Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>My Notes Board</h1>
+    <textarea id="noteText" placeholder="Type your note here..."></textarea>
+    <label for="noteDate">Date:</label>
+    <input type="date" id="noteDate">
+    <label for="noteTime">Time:</label>
+    <input type="time" id="noteTime">
+    <button id="createButton">Create</button>
+    <button id="deleteButton">Delete Task</button>
+    <input type="text" id="searchInput" placeholder="Search tasks...">
+<button id="searchButton">Search</button>
+<button id="sortButton">Sort Alphabetically</button>
+
+    <div id="notesContainer"></div>
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>
